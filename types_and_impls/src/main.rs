@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(warnings)]
 
 fn main() {
     println!("Hello World");
