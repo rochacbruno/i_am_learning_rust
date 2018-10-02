@@ -1,0 +1,14 @@
+[package]
+name = "web_ui_testing"
+version = "0.1.0"
+authors = ["Bruno Rocha <rochacbruno@gmail.com>"]
+
+[dependencies]
+# fantoccini = "*"
+# fantoccini = { git = "https://github.com/jonhoo/fantoccini#c1c515d3" }
+tokio = "0.1"
+futures = "0.1.14"
+
+[dependencies.fantoccini]
+git = "https://github.com/jonhoo/fantoccini"
+rev = "52cf5b1f763a5f19d3735bafd378fede9d193a07"
