@@ -68,3 +68,6 @@ fn test_tesoura() {
     assert_eq!(jokenpo(&TESOURA, &PAPEL), &TESOURA);
     assert_eq!(jokenpo(&TESOURA, &TESOURA), &TESOURA);
 }
+
+// https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=8c1067e2a9da4bb309d4337b83952dc2
+// https://www.youtube.com/watch?v=PSUAJn153eY
